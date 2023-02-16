@@ -42,10 +42,6 @@ public class Rental {
 		return returnDate;
 	}
 
-	public void setReturnDate(Date returnDate) {
-		this.returnDate = returnDate;
-	}
-
 	public int getDaysRentedLimit() {
 		int limit = 0 ;
 		int daysRented ;
