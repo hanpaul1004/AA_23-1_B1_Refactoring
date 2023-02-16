@@ -8,7 +8,7 @@ public class Rental {
 
 	public Rental(Video video) {
 		this.video = video ;
-		status = 0 ;
+		status = 0 ; // Bloaters - Primitive Obsession, status 속성을 0, 1 로 표현, 가독성 저하, 다른 프로그래머 문제발생 가능
 		rentDate = new Date() ;
 	}
 
